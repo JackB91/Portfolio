@@ -9,13 +9,17 @@ General styles
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+    background-color: lightgray;
     color: #333;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* /////////////////////////////////////////// */
@@ -55,10 +59,19 @@ header .social-links a:hover {
 }
 
 /* //////////////////////////////////////// */
+/* About */
+.about {
+    font-size: 1.3rem;
+}
 
+.headshot {
+    max-height: 250px;   
+    border-radius: 40%;
+}
 
 section {
     padding: 40px 0;
+    border-bottom: 1px solid gray;
 }
 
 h2 {
@@ -67,11 +80,29 @@ h2 {
     text-align: center;
 }
 
+
+@media screen and (min-width: 700px){
+    .about {
+        display: flex;
+        flex-direction: row;
+        max-width: 80%;
+    }
+
+    .headshot {
+        margin-right: 20px;
+    }
+}
+
+/* //////////////////////////////////
+Projects */
+
+
 .projects .project {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    
 }
 
 .projects .project h3 {
