@@ -96,11 +96,13 @@ h2 {
 /* ////////////////
 Skills */
 
+/* TODO: Not happy with this styling yet */
 .skills-list {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     width: 80%;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     font-size: 1.2rem;
     gap: 1rem;
@@ -120,6 +122,14 @@ Skills */
   }
   
 
+
+@media screen and (min-width: 700px){
+    .skills-list {
+        display: flex;
+        flex-direction: row;
+        max-width: 80%;
+    }  
+}
 
 
 
