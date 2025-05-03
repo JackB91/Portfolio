@@ -103,7 +103,22 @@ Skills */
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.2rem;
+    gap: 1rem;
 }
+
+  .skills-list li {
+    background: #f3f3f3;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .skills-list i {
+    margin-right: 8px;
+    font-size: 25px;
+  }
+  
 
 
 
@@ -149,6 +164,11 @@ Projects */
 .projects .project .btn:hover {
     background-color: #0077cc;
 }
+
+
+
+/* ///////////////////////
+Footer */
 
 footer {
     background: linear-gradient(135deg, #92d8bf, #c8e6a8);
