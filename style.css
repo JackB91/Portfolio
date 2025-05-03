@@ -190,3 +190,12 @@ footer {
 footer p {
     font-size: 1rem;
 }
+
+
+#scroll-to-top {
+border-radius: 10px;
+}
+
+#scroll-to-top:hover {
+    cursor: pointer;
+}
