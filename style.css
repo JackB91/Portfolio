@@ -177,6 +177,17 @@ Projects */
 
 
 
+/* ///////////////
+Contact */
+.contact h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.contact-icon {
+    font-size: 3.5rem;
+}
+
 /* ///////////////////////
 Footer */
 
