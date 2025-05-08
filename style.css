@@ -26,11 +26,13 @@ body {
 /* Header Styling */
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(135deg, #6bbba1, #a7d7b5);
     color: #2e2e2e;
     padding: 20px 0;
-    text-align: center;
-    height: 100vh;
+    text-align: center
 }
 
 header h1 {
