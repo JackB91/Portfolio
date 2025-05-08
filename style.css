@@ -26,10 +26,11 @@ body {
 /* Header Styling */
 
 header {
-    background: linear-gradient(135deg, #92d8bf, #c8e6a8);
-    color:#3a3a3a;
+    background: linear-gradient(135deg, #6bbba1, #a7d7b5);
+    color: #2e2e2e;
     padding: 20px 0;
-    text-align: center;  
+    text-align: center;
+    height: 100vh;
 }
 
 header h1 {
@@ -40,23 +41,28 @@ header h1 {
 header .title {
     font-size: 1.5rem;
     font-weight: 600;
+    color: #2e2e2e;
 }
 
 header .location {
     font-size: 1.2rem;
     font-style: italic;
+    color: #2e2e2e;
 }
 
 header .social-links a {
     margin: 0 10px;
-    color: #fff;
+    color: #2e2e2e;
     text-decoration: none;
     font-weight: 600;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
 }
 
 header .social-links a:hover {
-    color: #1e90ff;
+    color: #3a7461;
 }
+
 
 /* //////////////////////////////////////// */
 /* About */
@@ -162,17 +168,21 @@ Projects */
 }
 
 .projects .project .btn {
-    background-color: #1e90ff;
-    color: #fff;
+    background-color: #3a7461;
+    color: #ffffff;
     padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 10px;
-    margin-right: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 .projects .project .btn:hover {
-    background-color: #0077cc;
+    background-color: #325f50;
+    transform: scale(1.05);
 }
+
 
 
 
@@ -190,7 +200,7 @@ Contact */
 
 .say-hello {
     display: inline-block;
-    background-color: #3498db;
+    background-color: #3a7461;
     color: white;
     padding: 0.75rem 1.5rem;
     border-radius: 30px;
@@ -200,7 +210,7 @@ Contact */
   }
   
   .say-hello:hover {
-    background-color: #2c81ba;
+    background-color: #325f50;
     transform: scale(1.05);
   }
   
@@ -208,7 +218,7 @@ Contact */
 Footer */
 
 footer {
-    background: linear-gradient(135deg, #92d8bf, #c8e6a8);
+    background: linear-gradient(135deg, #6bbba1, #a7d7b5);
     color: #2e2e2e ;
     padding: 20px;
     text-align: center;
