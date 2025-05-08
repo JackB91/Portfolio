@@ -95,7 +95,7 @@ h2 {
 
 /* ////////////////
 Skills */
-.skills, .contact {background-color: #f4f4f4;}
+/* .skills, .contact {background-color: #f4f4f4;} */
 
 /* TODO: Not happy with this styling yet */
 .skills-list {
@@ -110,15 +110,13 @@ Skills */
 }
 
   .skills-list li {
-    background: #f3f3f3;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
     font-weight: bold;
     display: flex;
     align-items: center;
   }
+
   .skills-list i {
-    margin-right: 8px;
+    margin-right: 2px;
     font-size: 25px;
   }
   
@@ -221,10 +219,20 @@ footer p {
 }
 
 
-#scroll-to-top {
-border-radius: 10px;
+#scroll-up{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #6fcb9f;
+    color: white;
+    font-size: 24px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease, background 0.3s ease;
 }
 
-#scroll-to-top:hover {
+#scroll-up:hover {
     cursor: pointer;
+    transform: scale(1.2);
 }
